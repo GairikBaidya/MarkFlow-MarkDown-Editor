@@ -1,0 +1,77 @@
+/* ========== Custom Highlight.js Theme for MarkFlow ========== */
+
+.hljs {
+  background: var(--bg-tertiary) !important;
+  color: var(--text-primary);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: var(--syntax-keyword);
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: var(--syntax-string);
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: var(--syntax-comment);
+}
+
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-bullet,
+.hljs-link {
+  color: #f8c555;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-variable,
+.hljs-title.class_,
+.hljs-class .hljs-title {
+  color: #e2c08d;
+}
+
+.hljs-attr,
+.hljs-symbol,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #7ee787;
+}
+
+.hljs-function .hljs-title,
+.hljs-title.function_ {
+  color: #d2a8ff;
+}
+
+.hljs-params {
+  color: var(--text-primary);
+}
+
+.hljs-subst {
+  color: var(--text-primary);
+}
